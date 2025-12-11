@@ -1,4 +1,4 @@
-# The Slow Text Analyzer – Fast/Slow Comparison
+# The Slow Text Analyzer: Fast/Slow Comparison
 
 This repo contains a deliberately slow text analyzer and an optimized fast path. Run both and compare:
 
