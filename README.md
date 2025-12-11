@@ -32,11 +32,11 @@ Using `is_alphabetic()` / `to_lowercase()` introduces complex branching that’s
 
 ## Summary of optimizations in the fast version
 
-- One-pass processing → better data locality, fewer cache misses.  
-- Reduced allocations → faster inner loop, fewer function calls.  
-- Simple ASCII checks → predictable branches.  
-- Efficient top-10 via sort → O(n log n) instead of O(n²).  
-- Reuse existing data → less memory traffic, better cache performance.  
+- One-pass processing -> better data locality, fewer cache misses.  
+- Reduced allocations -> faster inner loop, fewer function calls.  
+- Simple ASCII checks -> predictable branches.  
+- Efficient top-10 via sort -> O(n log n) instead of O(n²).  
+- Reuse existing data -> less memory traffic, better cache performance.  
 - Inspired by:  
   - https://johnnysswlab.com/make-your-programs-run-faster-by-better-using-the-data-cache/  
   - https://johnnysswlab.com/make-your-programs-run-faster-avoid-function-calls/  
